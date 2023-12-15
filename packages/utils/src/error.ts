@@ -22,7 +22,7 @@ export function stringifyError(errorDescription: string, err: unknown): string {
       ? stringifyErrorValue(err)
       : err
       // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
-      ? '' + err
+      ? '' + JSON.stringify(err)
       : '(missing error information)'
   }`;
 }
