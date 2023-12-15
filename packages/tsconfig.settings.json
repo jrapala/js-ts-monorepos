@@ -9,7 +9,5 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "declaration": true,
-    "outDir": "dist",
-    "rootDir": "src"
   },
 }
