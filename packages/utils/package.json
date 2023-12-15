@@ -6,6 +6,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "build": "tsc -b ."
+  },
   "dependencies": {
     "date-fns": "^2.16.1",
     "react": "^16.14.0"
