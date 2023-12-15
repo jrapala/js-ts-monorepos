@@ -1,5 +1,5 @@
 {
-  "name": "js-ts-monotrepos",
+  "name": "js-ts-monorepos",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:mike-north/js-ts-monorepos.git",
@@ -7,8 +7,16 @@
   "license": "BSD-2-Clause",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "greet": "scripty"
+    "greet": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "build": "scripty",
+    "clean": "scripty"
+  },
+  "config": {
+    "scripty": {
+      "path": "./scripts/workspace"
+    }
   },
   "workspaces": [
     "packages/*"
