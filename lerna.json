@@ -1,6 +1,10 @@
 {
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "npmClient": "yarn",
-  "version": "0.0.1",
-  "nohoist": ["parcel-bundler"]
+  "version": "1.0.0",
+  "nohoist": [
+    "parcel-bundler"
+  ]
 }
